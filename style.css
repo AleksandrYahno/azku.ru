@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 982px;
+    font-size: 15px;
+    font-family: Georgia, serif;
+    color: #333333;
+}
+
+.wrapper {
+    background: url(images/head.jpg) no-repeat 49.5% 0;
+}
+
+.conteiner {
+    min-height: 250px;
+    width: 982px;
+    height: auto;
+    text-align: left;
+    margin: 0 auto;
+    padding: 194px 0 47px;
+}
+
+.content {
+    display: block;
+    float: left;
+    width: 982px;
+}
+
+.left-block {
+    margin-top: 43px;
+    display: inline;
+    padding-left: 10px;
+    background: url(images/left.jpg) repeat-y top;
+    float: left;
+    width: 260px;
+}
+
+.left-block>h3 {
+    font-size: 16px;
+    color: #666666;
+    padding-left: 15px;
+    background: url(images/separator.gif) no-repeat left 50%;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #595959;
+    padding: 2px 0 8px 0;
+}
+
+.block-content {
+    padding: 10px 20px 30px 10px;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.categories a {
+    margin: 0 5px;
+    padding: 9px 0 9px 9px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #661d18;
+    font-size: 15px;
+    display: block;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #cccccc;
+}
+
+.left-block>.search-input::-webkit-input-placeholder {
+    background: url(images/yandex-hint-rb.png) no-repeat left 100%;
+}
+
+.search-input {
+    width: 204px;
+    border: 1px solid #7F9DB9;
+    padding: 2px 4px;
+}
+
+.search-button {
+    padding: 2px 6px;
+    border: none;
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.main-block {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 689px;
+    padding: 50px 0 0 14px;
+}
+
+.text-main-block {
+    padding: 10px 0;
+    font-size: 16px;
+    word-spacing: 2px;
+    line-height: 130%;
+    font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: #d40000;
+    margin: 2px 0 2px 7px;
+}
+
+.text-main-block>p::first-letter {
+    font-size: 35px;
+    font-weight: bold;
+    color: #d40000;
+    font-family: cursive;
+    padding-left: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-right: -5px;
+    float: left;
+    margin-top: -10px;
+    line-height: 1em;
+    margin-bottom: -10px;
+}
