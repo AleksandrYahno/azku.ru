@@ -113,7 +113,7 @@ h1 {
     margin: 2px 0 2px 7px;
 }
 
-.text-main-block>p::first-letter {
+.text-main-block::first-letter {
     font-size: 35px;
     font-weight: bold;
     color: #d40000;
@@ -128,3 +128,22 @@ h1 {
     line-height: 1em;
     margin-bottom: -10px;
 }
+
+.poem {
+    white-space: pre;
+}
+
+.soc-block {
+    float: left;
+}
+
+.soc-block-icon {
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin: 2px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 0 #999;
+}
+
