@@ -134,16 +134,94 @@ h1 {
 }
 
 .soc-block {
-    float: left;
+    float: right;
+    margin: 30px;
 }
 
 .soc-block-icon {
     float: left;
-    height: 20px;
+    height: 24px;
     overflow: hidden;
     border: 1px solid #ddd;
     margin: 2px;
-    border-radius: 4px;
-    box-shadow: 2px 2px 0 #999;
+    border-radius: 3px;
+    box-shadow: 1px 2px 1px #ddd;
+    background: linear-gradient(0deg, #E7E7E7, #fff);
 }
 
+.odnoklassniki-icon {
+    position: relative;
+    top: -414px;
+    left: 3px;
+    margin: 1px;
+}
+
+.mail-icon {
+    position: relative;
+    top: -292px;
+    left: 3px;
+    margin: 1px;
+}
+
+.vk-icon {
+    position: relative;
+    top: -270px;
+    left: 3px;
+    margin: 1px;
+}
+
+.facebook-icon {
+    position: relative;
+    top: -318px;
+    left: 3px;
+    margin: 1px;
+}
+
+.twit-icon {
+    position: relative;
+    top: -342px;
+    left: 3px;
+    margin: 1px;
+}
+
+.google-icon {
+    position: relative;
+    top: -640px;
+    left: 3px;
+    margin: 1px;
+}
+
+.pen-icon {
+    position: relative;
+    top: -390px;
+    left: 3px;
+    margin: 1px;
+}
+
+.like-icon {
+    position: relative;
+    top: -513px;
+    left: 3px;
+    margin: 1px;
+}
+
+.dislike-icon {
+    position: relative;
+    top: -487px;
+    left: 3px;
+    margin: 1px;
+}
+
+.soc-block-icon:nth-child(3) {
+    border: none;
+    float: left;
+    width: 300px;
+    height: 24px;
+    overflow: hidden;
+    margin: 2px;
+    padding-right: 6px;
+    box-shadow: none;
+    background: none;
+    color: #878787;
+    text-align: right
+}
